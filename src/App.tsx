@@ -95,7 +95,6 @@ export default function App() {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#061c22] text-white">
-      <Fish />
       <div className="ocean-grain" />
       <header className="site-header">
         <a href="#inicio" className="brand"><span className="brand-symbol">✳</span> maré<span className="brand-dot">.</span></a>
@@ -110,6 +109,7 @@ export default function App() {
 
       <section id="inicio" className="hero-section">
         <div className="hero-copy">
+          <Fish />
           <div className="eyebrow"><span aria-hidden="true">〰</span> COZINHA DO MAR · FEITO COM TEMPO</div>
           <h1>O mar inspira.<br/><em>A gente transforma.</em></h1>
           <p>Ingredientes frescos, receitas cheias de afeto e uma experiência que tem gosto de litoral.</p>
